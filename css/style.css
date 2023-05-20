@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,700;0,900;1,300;1,900&family=Roboto+Slab:wght@100;300;400;600&family=Roboto:ital,wght@0,900;1,400;1,500;1,700&display=swap');
+body{
+    background:linear-gradient( #f6ffe6, #effff3);
+    font-family: 'Roboto Slab', serif;
+   
+}
+
+
+/* beginning of the nav section */
+
+.container{
+    width: 100vw;
+    display: flex;
+    /* flex-direction: column-reverse; */
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0px;
+    height: 70px;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    background-color: #fff;
+
+
+
+}
+
+.container .navImg img{
+    width: 100px;
+}
+
+
+.container .nav_link{
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+.container .nav_link div a{
+    text-decoration: none;
+    margin: 15px;
+   
+   
+}
+.bi-chevron-down{
+    padding-top: 20px;
+    font-size: 5px;
+}
+
+
+.nav_link div .demo:hover{
+    background-color: brown;
+}
+/* ending of the nav section */
+
+
+.boyContentleft{
+    position: relative;
+    width: 30%;
+}
+.boyContentright{
+    position: relative;
+    width: 50%;
+    right: 0;
+    left: -10px;
+    padding-top: 80px;
+}
+
+
+.boyContentright h1{
+    font-size: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* padding-top:100px; */
+    width: 510px;
+    text-align: left;
+    font-weight: bolder;
+}
+
+.boyContentleft .image1{
+    position: absolute;
+    top: 70px;
+    width: 200px;
+    left: -100px;
+   
+   
+}
+
+.boyContentleft .image2{
+    position: absolute;
+    z-index: 100;
+    left:-20px;
+    height: 600px;
+}
+
+
+.boyContainer{
+width: 100%;
+height: 100vh;
+margin-top: 100px;
+display: flex;
+justify-content: space-around;
+position: relative;
+
+}
+
+.boyContentright .imagea{
+    position: absolute;
+    top: 0;
+    right: -50px;
+}
+.boyContentright .imageb{
+    position: absolute;
+    bottom: 10px;
+    right: -50px;
+    
+}
